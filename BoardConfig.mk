@@ -85,7 +85,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_FSTAB := device/samsung/winner/recovery/root/etc/recovery.fstab
-TW_USE_TOOLBOX := true
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
@@ -118,3 +117,4 @@ TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
+TW_USE_TOOLBOX := true
